@@ -1,0 +1,17 @@
+﻿@inherits LayoutComponentBase
+
+<h3>SecondaryLayout</h3>
+<nav class="navbar navbar-expand-lg">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <NavLink class="nav-link" Match="NavLinkMatch.All" href="">Home</NavLink>
+        </li>
+        <li class="nav-item">
+            <NavLink class="nav-link" Match="NavLinkMatch.All" href="/another-page">Another Page</NavLink>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    @Body
+</div>
